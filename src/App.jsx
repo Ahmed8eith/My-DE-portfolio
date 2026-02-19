@@ -297,7 +297,7 @@ Today, I focus on building reliable and scalable data systems that prioritize da
           </div>
           <div className='contact'>
             <img src={gmail} alt="gmail" />
-            <h4>ahmed8eith@gmail.com</h4>
+            <h4>ahmedghaith879@gmail.com</h4>
           </div>
           <div className='contact'>
             <img src={phone} alt='phone' />

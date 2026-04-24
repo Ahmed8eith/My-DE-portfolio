@@ -1,6 +1,8 @@
 import deskIcon from './assets/icons8-desk-50.png';
 import pipeline from './assets/icons8-water-control-64.png';
 import scrapping from './assets/scrapping5.png'
+import database from './assets/database.png'
+import dateWarehouse from './assets/dataWarehouse.png'
 
 
 export const projects = [
@@ -21,5 +23,17 @@ export const projects = [
     description: 'Python ETL pipeline that scrapes Data Engineer job listings from Wuzzuf using requests and BeautifulSoup, handles pagination, extracts structured job data, converts posting dates, cleans and removes duplicates with Pandas, and outputs a ready-to-analyze dataset in CSV format.',
     link: 'https://github.com/Ahmed8eith/Wuzzuf-Web-Scrapper',
     icon: scrapping
+  },
+  {
+    title: 'SQL Relational Database',
+    description: 'A relational database built with Microsoft SQL Server. Models a simple order management system with customers, employees, products, and orders.',
+    link: 'https://github.com/Ahmed8eith/SQL-Relational-Database',
+    icon: database
+  },
+  {
+    title: 'SQL Star Schema Date Warehouse',
+    description: 'A data warehouse built with Microsoft SQL Server as part of a practice assignment. Models waste collection trips using a star schema with trucks, stations, and dates as dimensions.',
+    link: 'https://github.com/Ahmed8eith/SQL-Star-Schema-Database',
+    icon: dateWarehouse
   }
 ];

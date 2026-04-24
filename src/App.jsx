@@ -311,6 +311,14 @@ Today, I focus on building reliable and scalable data systems that prioritize da
           </div>
         </div>
       </div>
+      <footer>
+            <h5>
+              ©{new Date().getFullYear()} Ahmed Mohamed · Icons by{" "}
+              <a href="https://icons8.com" target="_blank" rel="noopener noreferrer">
+                Icons8
+              </a>
+            </h5>
+          </footer>
         </>
       )}
       

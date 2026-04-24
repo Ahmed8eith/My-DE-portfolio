@@ -1,5 +1,6 @@
 import deskIcon from './assets/icons8-desk-50.png';
 import pipeline from './assets/icons8-water-control-64.png';
+import scrapping from './assets/scrapping5.png'
 
 
 export const projects = [
@@ -14,5 +15,11 @@ export const projects = [
     description: 'A modular Python ETL pipeline using Pandas, designed for maintainable and scalable data processing of raw CSV data.',
     link: 'https://github.com/Ahmed8eith/Pandas-based-ETl-pipeline',
     icon: pipeline
+  },
+  {
+    title: 'Wuzzuf Web Scrapper',
+    description: 'Python ETL pipeline that scrapes Data Engineer job listings from Wuzzuf using requests and BeautifulSoup, handles pagination, extracts structured job data, converts posting dates, cleans and removes duplicates with Pandas, and outputs a ready-to-analyze dataset in CSV format.',
+    link: 'https://github.com/Ahmed8eith/Wuzzuf-Web-Scrapper',
+    icon: scrapping
   }
 ];

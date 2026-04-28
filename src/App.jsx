@@ -246,6 +246,38 @@ Today, I work across both web development and data engineering, focusing on buil
         <h1>Skills</h1>
         <div className="skills-box">
           <div className='skill'>
+            <h3>React</h3>
+            <h5>Experienced</h5>
+          </div>
+          <div className='skill'>
+            <h3>Javascript</h3>
+            <h5>Experienced</h5>
+          </div>
+          <div className='skill'>
+            <h3>CSS</h3>
+            <h5>Experienced</h5>
+          </div>
+          <div className='skill'>
+            <h3>Html</h3>
+            <h5>Experienced</h5>
+          </div>
+          <div className='skill'>
+            <h3>Problem Solving</h3>
+            <h5>Experienced</h5>
+          </div>
+          <div className='skill'>
+            <h3>Tailwind</h3>
+            <h5>Intermediate</h5>
+          </div>
+          <div className='skill'>
+            <h3>Node.js</h3>
+            <h5>Basic</h5>
+          </div>
+          <div className='skill'>
+            <h3>Express</h3>
+            <h5>Basic</h5>
+          </div>
+          <div className='skill'>
             <h3>Python</h3>
             <h5>Experienced</h5>
           </div>
@@ -259,10 +291,6 @@ Today, I work across both web development and data engineering, focusing on buil
           </div>
           <div className='skill'>
             <h3>ETL</h3>
-            <h5>Experienced</h5>
-          </div>
-          <div className='skill'>
-            <h3>Problem Solving</h3>
             <h5>Experienced</h5>
           </div>
           <div className='skill'>

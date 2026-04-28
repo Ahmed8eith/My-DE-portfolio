@@ -54,12 +54,12 @@ function App() {
   // Handle telegram notification and it's cooldown
   useEffect(() => {
     const CD = 10 * 60 * 1000
-    const lastNotified = sessionStorage.getItem("notification")
+    const lastNotified = localStorage.getItem("notification")
     const now = Date.now()
 
     if (lastNotified && now - Number(lastNotified) < CD) return
 
-    sessionStorage.setItem("notification", now)
+    localStorage.setItem("notification", now)
 
     fetch("/api/notify", {
       method: "POST",

@@ -50,6 +50,29 @@ function App() {
     }
   };
 
+
+  // Handle telegram notification and it's cooldown
+  useEffect(() => {
+    const CD = 10 * 60 * 1000
+    const lastNotified = sessionStorage.getItem("notification")
+    const now = Date.now()
+
+    if (lastNotified && now - Number(lastNotified) < CD) return
+
+    sessionStorage.setItem("notification", now)
+
+    fetch("/api/notify", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        userAgent: navigator.userAgent,
+        language: navigator.language,
+        referrer: document.referrer,
+        screen: `${screen.width}x${screen.height}`,
+      }),
+    })
+  }, [])
+
   return (
     <>
      <div className='navbar'>

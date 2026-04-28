@@ -130,9 +130,10 @@ function App() {
          <div className='about-text'>
             <h1>About Me</h1>
             <h2>
-                My journey into data engineering started with self-driven learning and a deep curiosity about how data systems work. Through online study and hands-on projects, I built strong foundations in data processing, system design, and problem solving.
+                My journey started in web development, where I focused on building modern, responsive web applications and exploring how real-world websites are structured and delivered. This gave me a strong foundation in creating functional and user-focused digital experiences, along with a practical understanding of how web applications come together.
+Alongside that, I developed a growing interest in data engineering, which led me to explore data systems, processing pipelines, and backend architecture. Through self-driven learning and hands-on projects, I built strong foundations in data processing, system design, and problem solving.
 I later joined the DEPI internship, where I strengthened my practical experience and transitioned from learning concepts to building real world solutions.
-Today, I focus on building reliable and scalable data systems that prioritize data quality, architectural clarity, and long-term maintainability choosing simplicity and sound design over unnecessary complexity.
+Today, I work across both web development and data engineering, focusing on building reliable, scalable systems and clean user experiences, while maintaining a strong emphasis on simplicity, structure, and long-term maintainability.
             </h2>
          </div>
          <div className='about-boxes'>
@@ -174,8 +175,35 @@ Today, I focus on building reliable and scalable data systems that prioritize da
         <span>Data Pipelines</span>
       </div>
     </div>
+    <div className='experience-card'>
+  <div className='exp-header'>
+    <div className='exp-title-group'>
+      <h2>Frontend Developer Intern</h2>
+      <h3>Ashtar</h3>
+    </div>
+    <span className='exp-date'>Jun 2025 – Dec 2025</span>
+  </div>
+  <p className='exp-summary'>
+    Gained hands-on experience building responsive and efficient web applications working side to Ashtar's company's Developers,
+    bridging theoretical knowledge with real-world development challenges.
+  </p>
+  <ul className='exp-bullets'>
+    <li>Strengthened skills in data structures, algorithms, and problem-solving within a web development context</li>
+    <li>Built responsive UIs using JavaScript, HTML, and CSS</li>
+    <li>Worked on real-world frontend challenges in a remote environment</li>
+  </ul>
+  <div className='exp-tags'>
+    <span>JavaScript</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>DSA</span>
+    <span>Problem Solving</span>
   </div>
 </div>
+  </div>
+</div>
+
+
 
 
 <div className='courses' id='courses'>
@@ -259,6 +287,12 @@ Today, I focus on building reliable and scalable data systems that prioritize da
 
   <div className='services-grid'>
 
+<div className='service-card service-card--accent'>
+    <div className='service-icon'><img src={website} alt="web" /></div>
+      <h2>Web Development</h2>
+      <p>Building modern, responsive web applications that focus on usability, performance, and clear structure. Turning ideas into functional digital experiences with attention to detail and user experience.</p>
+    </div>
+
     <div className='service-card'>
       <div className='service-icon'><img src={settings} alt="gear" /></div>
       <h2>Data Pipeline Development</h2>
@@ -267,8 +301,8 @@ Today, I focus on building reliable and scalable data systems that prioritize da
 
     <div className='service-card'>
       <div className='service-icon'><img src={storage} alt="storage" /></div>
-      <h2>Data Warehousing & Architecture</h2>
-      <p>Structure your data layer with clear modeling and thoughtful schema design, so your warehouse grows with you instead of against you.</p>
+      <h2>Database Development </h2>
+      <p>Structure your data layer with clear modeling and thoughtful schema design, so that your Data structure grows with you instead of against you.</p>
     </div>
 
     <div className='service-card'>
@@ -280,13 +314,7 @@ Today, I focus on building reliable and scalable data systems that prioritize da
     <div className='service-card'>
       <div className='service-icon'><img src={analysis} alt="analysis" /></div>
       <h2>Analytics & Reporting Support</h2>
-      <p>Transform raw data into structured, query-ready formats that make reporting and analysis fast, consistent, and meaningful.</p>
-    </div>
-
-    <div className='service-card service-card--accent'>
-      <div className='service-icon'><img src={website} alt="web" /></div>
-      <h2>Frontend Development</h2>
-      <p>Build clean, responsive web interfaces using React — translating ideas into polished user experiences that are as solid as the data behind them.</p>
+      <p>Transform raw data into structured, query ready formats that make reporting and analysis fast, consistent, and meaningful.</p>
     </div>
 
   </div>

@@ -178,7 +178,7 @@
 }
 
 .landing-text h3{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 
@@ -317,7 +317,8 @@
 
 .about-text h2{
     max-width: 1000px;
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 1.4;
 }
 
 

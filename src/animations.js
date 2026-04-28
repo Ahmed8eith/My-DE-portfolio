@@ -92,10 +92,10 @@ export const landingAnimation = () => {
       });
 
       new Typed('.landing-text h3', {
-        strings: ["Data Engineer"],
+        strings: ["Web Devloper / Data Engineer"],
         typeSpeed: 50,
         showCursor: false,
-        startDelay: 1700
+        startDelay: 1700,
       });
     }
   });

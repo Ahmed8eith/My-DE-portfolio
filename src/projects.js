@@ -3,14 +3,28 @@ import pipeline from './assets/icons8-water-control-64.png';
 import scrapping from './assets/scrapping5.png'
 import database from './assets/database.png'
 import dateWarehouse from './assets/dataWarehouse.png'
+import lipstick from './assets/lipstick.png'
+import ai from './assets/ai.png'
 
 
 export const projects = [
+  {
+    title: 'Muse Beauty Store',
+    description:'An e-commerce frontend project for beauty products, focused on clean UI, product presentation, and smooth user experience.',
+    link: 'https://muse-beauty.netlify.app/',
+    icon: lipstick
+  },
   {
     title: 'Support Desk',
     description: 'A platform that lets users submit complaints or feedback via a secure form and view submitted entries, ensuring transparency and efficient resolution.',
     link: 'https://celebrated-beignet-b1b3bc.netlify.app/',
     icon: deskIcon
+  },
+  {
+    title: 'Orca Logic AI Landing Page',
+    description: 'A frontend AI agency landing page showcasing a modern, and responsive interface with smooth Animations. Built to simulate a real business website with structured sections, interactive UI elements, and a strong focus on visual presentation and user experience.',    
+    link: 'https://orca-logic.netlify.app/',
+    icon: ai
   },
   {
     title: 'Pandas based EtL Pipeline',
